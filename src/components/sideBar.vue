@@ -94,10 +94,6 @@ const navigation = [
   { text: "Survey", url: "/pinCashPickup", icon: "ClipboardListIcon" },
   { text: "Administrator", url: "/pinCashPickup", icon: "OfficeBuildingIcon" },
   { text: "Lain Lain", url: "/pinCashPickup", icon: "TemplateIcon" },
-  { text: "About", url: "/about" },
-  { text: "About", url: "/about" },
-  { text: "About", url: "/about" },
-  { text: "About", url: "/about" },
 ];
 
 export default {

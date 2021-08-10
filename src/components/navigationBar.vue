@@ -10,7 +10,7 @@
                 id="menu-search"
                 class="bg-transparent border-b block text-white-200"
                 type="text"
-                placeholder="Search..."
+                placeholder="Pencarian Cepat..."
               />
               <!-- <template v-for="(item, itemIdx) in navigation" :key="item">
                 <template v-if="itemIdx === 0">
