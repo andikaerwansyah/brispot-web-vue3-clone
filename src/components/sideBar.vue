@@ -11,9 +11,7 @@
         </router-link>
       </div>
       <!-- Scrollable Container -->
-      <div
-        class="overflow-y-scroll top-0 h-screen w-64 brispot-scroll-bar mt-3"
-      >
+      <div class="overflow-y-auto top-0 h-screen w-64 brispot-scroll-bar mt-3">
         <template v-for="item in navigation" :key="item">
           <nav
             class="
@@ -71,7 +69,8 @@ import {
 
 const navigation = [
   { text: "Home", url: "/", icon: "HomeIcon" },
-  { text: "Calon Penyimpan Potensial (CPP)", url: "/cpp", icon: "UserAddIcon" },
+  { text: "CPP", url: "/cpp", icon: "UserAddIcon" },
+  // { text: "Calon Penyimpan Potensial (CPP)", url: "/cpp", icon: "UserAddIcon" },
   { text: "Prakarsa & Putusan Kredit", url: "/cpp", icon: "CheckCircleIcon" },
   { text: "Pencairan Pinjaman", url: "/cpp", icon: "PencilAltIcon" },
   { text: "Register SKPP", url: "/cpp", icon: "CollectionIcon" },

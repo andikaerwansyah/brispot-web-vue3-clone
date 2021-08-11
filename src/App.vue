@@ -76,4 +76,7 @@ export default {
   background-color: #013161;
   border-bottom: 3px solid orange;
 }
+.swal2-popup {
+  border-radius: 15px !important;
+}
 </style>
