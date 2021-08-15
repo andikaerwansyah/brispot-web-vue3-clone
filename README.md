@@ -2,7 +2,7 @@
 BRISpot Web Clone With Vite, Vue3 &amp; TailwindCSS &amp; UI.
 
 ## Online Demo 
-Hosted on Netlify [Duck Duck Go](https://brispot-clone.netlify.app/).
+Hosted on Netlify [Brispot Web Clone](https://brispot-clone.netlify.app/).
 
 ## Fresh Install
 
