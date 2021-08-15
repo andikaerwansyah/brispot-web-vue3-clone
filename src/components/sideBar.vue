@@ -1,7 +1,7 @@
 <template>
   <div class="sticky top-0 w-64 bg-brispot">
-    <div class="flex-1 fixed mt-5">
-      <div class="flex-shrink-0 ml-3">
+    <div class="flex-1 fixed h-screen">
+      <div class="flex-shrink-0 ml-3 mt-5 mb-3">
         <router-link to="/">
           <img
             class="h-8 w-33"
@@ -11,17 +11,16 @@
         </router-link>
       </div>
       <!-- Scrollable Container -->
-      <div class="overflow-y-auto top-0 h-screen w-64 brispot-scroll-bar mt-3">
+      <div class="overflow-y-auto w-64 brispot-scroll-bar" style="height: 92vh">
         <template v-for="item in navigation" :key="item">
           <nav
             class="
               text-sm text-white
               py-2
-              px-4
+              px-2
               hover:bg-gray-200
               hover:text-yellow-600
-              focus:border-l-2
-              rounded
+              hover:border-r-3 hover:border-yellow-600
               align-middle
             "
           >
@@ -93,6 +92,7 @@ const navigation = [
   { text: "Survey", url: "/pinCashPickup", icon: "ClipboardListIcon" },
   { text: "Administrator", url: "/pinCashPickup", icon: "OfficeBuildingIcon" },
   { text: "Lain Lain", url: "/pinCashPickup", icon: "TemplateIcon" },
+  { text: "About", url: "/about", icon: "TemplateIcon" },
 ];
 
 export default {

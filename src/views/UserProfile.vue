@@ -88,14 +88,14 @@
 import { PaperClipIcon } from "@heroicons/vue/solid";
 
 let userDetails = {
-  nama: "Gamaldi Abimastyo Tjondronegor",
-  personalNumber: "00076348",
+  nama: "KENNY YOHANNA CRISTINE",
+  personalNumber: "3411151099",
   nip: "OC54938311",
-  jenisKelamin: "Laki-Laki",
+  jenisKelamin: "Perempuan",
   eselon: "S5",
-  jabatan: "Staf & Jabatan setingkat",
+  jabatan: "Front-end Web Developer",
   areaKerja: "Kantor Pusat",
-  subAreaKerja: "Kantor Pusat",
+  subAreaKerja: "Loan Channel Platform",
   unitKerja: "[229] Kas Kanpus",
   levelId: "ADMIN_CONS [P]",
   nomorHandphone: "082219188335",

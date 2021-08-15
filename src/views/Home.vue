@@ -40,7 +40,7 @@
       <div class="grid grid-cols-6 gap-1 h-48 flex flex-wrap content-center">
         <div class="flex justify-center">
           <BrispotButton
-            btn-text="Cari"
+            btn-text="Vue lifecycle"
             btn-icon="SearchCircleIcon"
             class="text-white bg-blue-600"
           />

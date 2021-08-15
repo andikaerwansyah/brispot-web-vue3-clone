@@ -79,4 +79,9 @@ export default {
 .swal2-popup {
   border-radius: 15px !important;
 }
+nav li.router-link-active {
+  @apply bg-gray-200;
+  @apply text-yellow-600;
+  @apply rounded;
+}
 </style>
